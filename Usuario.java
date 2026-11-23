@@ -1,5 +1,5 @@
 
-
+public class Usuario {
 
     // Armazena as credenciais do usuário.
     String usuario;
