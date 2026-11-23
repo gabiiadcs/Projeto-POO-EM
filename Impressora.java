@@ -317,9 +317,9 @@ public class Impressora {
 
         if (conexaoAberta) {
 
-            int pino = 2;
-            int tempoInicio = 50;
-            int tempoFim = 200;
+            int pino = 1;
+            int tempoInicio = 5;
+            int tempoFim = 5;
 
             try {
                 int ret = ImpressoraDLL.INSTANCE.AbreGaveta(
